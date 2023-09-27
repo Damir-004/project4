@@ -1,0 +1,98 @@
+@media screen and (min-width: 1170px){
+    .footer{
+        .container{
+            height: 50vh;
+            padding-top: 30px;
+        }
+        .footer_top{
+            display: flex;
+
+            .footer_text{
+                height: 45vh;
+                display: flex;
+                justify-content: space-around;
+                .footer_top_text{
+                    .top__text{
+                        font-size: 22px;
+                        padding-bottom: 20px;
+                    }
+                    .top_text{
+                        padding-top: 65px;
+                    }
+                    p{
+                        font-size: 15.5px;
+                        padding: 10px 0;
+                        text-align: left;
+                        color: #5d5d5d;
+                        font-family: 'Roboto', sans-serif;
+                    }
+                    .Facebook{
+                        padding-top: 65px;
+                    }
+                    .Facebook::before{
+                        font-family: "Font Awesome 5 Brands";
+                        content: "\f082";
+                        font-weight: 900;
+                        color: #b3b3b3;
+                        padding-right: 5px;
+                    }
+                    .Twitter::before{
+                        font-family: "Font Awesome 5 Brands";
+                        content: "\f082";
+                        font-weight: 900;
+                        color:  #b3b3b3;
+                        padding-right: 5px;
+                    }
+                    .Instagram::before{
+                        font-family: "Font Awesome 5 Brands";
+                        content: "\f16d";
+                        font-weight: 900;
+                        color: #b3b3b3;
+                        padding-right: 5px;
+                    }
+                    .You_tube::before{
+                        font-family: "Font Awesome 5 Brands";
+                        content: "\f167";
+                        font-weight: 900;
+                        color:  #b3b3b3;
+                        padding-right: 5px;
+                    }
+                    .Vimeo::before{
+                        font-family: "Font Awesome 5 Brands";
+                        content: "\f40a";
+                        font-weight: 900;
+                        color:  #b3b3b3;
+                        padding-right: 5px;
+                    }
+                }
+            }
+            .footer_text:nth-child(1){
+                width: 40%;
+            }
+            .footer_text:nth-child(2){
+                width: 60%;
+            }
+        }
+        .footer_bottom{
+            width: 100%;
+            height: 5vh;
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 10px;
+            border-top: 1px solid #b8b8b8 ;
+            &_img{
+                color: #5e5d5d;
+                i{
+                    width: 30px;
+                    height: 20px;
+                    background-size:100%;
+                }
+            }
+            &_text{
+                font-size: 15px;
+                color: #5d5d5d;
+                font-family: 'Roboto', sans-serif;
+            }
+        }
+    }
+}

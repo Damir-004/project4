@@ -1,0 +1,36 @@
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+@import "header.scss";
+@import "mobile/mobile_header.scss";
+
+@import "new_arrives.scss";
+@import "mobile/mobile_new_arrives.scss";
+
+@import "Shining_diva_fashion.scss";
+@import "mobile/mobile_Shining_diva_fashion.scss";
+
+@import "antique_collection.scss";
+@import "mobile/mobile_antique_collection.scss";
+
+@import "best_on_the_biggest_day.scss";
+@import "mobile/mobile_best_on_the_biggest_day.scss";
+
+@import "blog_updates.scss";
+@import "mobile/mobile_blog_updates.scss";
+
+@import "footer.scss";
+@import "mobile/mobile_footer.scss";
+
+@import "reviews.scss";
+@import "mobile/mobile_reviews.scss";

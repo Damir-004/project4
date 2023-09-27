@@ -1,0 +1,191 @@
+@media screen and (min-width: 1170px){
+    .header{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(253, 64, 94);
+        .container{
+            height: 100%;
+            padding-top: 30px;
+        }
+        .banner{
+            display: flex;
+        }
+        .hamburger{
+            width: 50%;
+            height: 30px;
+            transform: translateX(380px);
+            font-family: 'Poppins', sans-serif;
+            padding-top: 15px;
+            input{
+                display: none;
+            }
+            .menu__box{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+            }
+            a{
+                color: #fff;
+            }
+        }
+        .banner_block{
+            width: 30%;
+            transform: translateX(-570px);
+            display: flex;
+            .banner_text{
+                width: 50%;
+                font-size: 38px;
+                font-family: 'Poppins', sans-serif;
+                color: #fff;
+            }
+            .Search::placeholder{
+                color: #fff;
+            }
+            #banner_input{
+                width: 50%;
+                height: 30px;
+                outline: none;
+                border:none;
+                color: #fff;
+                background-color:rgb(253, 64, 94);
+                padding-top: 15px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            #banner_input:before{
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            content: "\f002";
+            color: #fff;
+            }
+        }
+    }
+    .login{
+        padding-top: 15px;
+        .a{
+            padding-left: 50px;
+        }
+        .modalDialog {
+            position: fixed;
+            font-family: Arial, Helvetica, sans-serif;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: rgba(0,0,0,0.8);
+            z-index: 99999;
+            -webkit-transition: opacity 400ms ease-in;
+            -moz-transition: opacity 400ms ease-in;
+            transition: opacity 400ms ease-in;
+            display: none;
+            pointer-events: none;
+        }
+        h2{
+            text-align: center;
+            color: #fff;
+        }
+        .modalDialog:target {
+            display: block;
+            pointer-events: auto;
+        }
+        .modalDialog > div {
+            width: 400px;
+            min-height: 250px;
+            position: relative;
+            margin: 10% auto;
+            padding:20px;
+            border-radius: 10px;
+            background: rgb(255, 117, 117);
+        }
+        .Login{
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+            padding: 10px 0;
+        }
+        input{
+        border-radius: 15px;
+        border: none;
+        outline: none;
+        }
+        .close {
+            color: #ffffff;
+            line-height: 25px;
+            position: absolute;
+            right: 10px;
+            text-align: center;
+            top: 10px;
+            width: 24px;
+            text-decoration: none;
+            font-weight: bold;
+            -webkit-border-radius: 12px;
+            -moz-border-radius: 12px;
+            border-radius: 12px;
+        }
+        span{
+            color: #fff;
+        }
+        input{
+            padding: 5px 10px;
+        }
+        a{
+            color: rgb(255, 255, 255);
+        }
+        .modalDialog_next{
+            display: flex;
+            justify-content: space-around;
+        }
+      }
+
+    
+    .slaider{
+        &__block{
+            width: 94%;
+            overflow: hidden;
+            outline: none;
+            .comments_block{
+                width: 100%;
+                height: 100%;
+                outline: none;
+                .hand{
+                    font-size: 30px;
+                    color:#fff;
+                    padding-top: 170px;
+                    font-family: 'Playfair Display', serif;
+                }
+                .wonders{
+                    font-size: 55px;
+                    margin-top: -25px;
+                    font-family: 'Playfair Display', serif;
+                    font-style: italic;
+                    color:#fff;
+                    text-shadow: 0 0 5px  rgb(240, 57, 57);
+                }
+                &_text{
+                    width: 250px;
+                    height: 40px;
+                    border:1px solid white;
+                    margin-top: 50px;
+                    padding: 10px;
+                    text-align: center;
+                    cursor: pointer;
+                    a{
+                      color: #fff;
+                      font-family: 'Poppins', sans-serif;
+                    }
+                }
+                .img_girls{
+                    width: 50%;
+                    height: 89vh;
+                    background: url(../image/girls.png);
+                    background-size: 100%;
+                    background-repeat: no-repeat;
+                    margin-top: -330px;
+                    margin-left: 50%;
+                }
+            }
+        }
+    }
+
+
+}

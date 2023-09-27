@@ -1,0 +1,29 @@
+@media screen and (max-width: 480px) {
+    .main_text{
+        width: 65%;
+        font-size: 35px;
+        margin: 20px auto;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+    }
+    .diva_fashion_text{
+        padding: 0 15px;
+        line-height: 1.25;
+        margin-top: 35px;
+        font-size: 17px;
+        color: #727272;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+    }
+    .view_the{
+        width: 50%;
+        padding: 7px;    
+        margin: 40px auto;
+        text-align: center;
+        border:1px solid rgb(255, 151, 151);
+        a{
+            color: rgb(255, 151, 151);
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+}

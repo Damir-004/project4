@@ -1,0 +1,59 @@
+@media screen and (max-width: 480px) {
+  .biggest_day{
+    padding-top: 50px;
+    .container{
+      width: 80%;
+      padding: 0 15px;
+    }
+    .container_text{
+      .top_text{
+        font-size: 38px;
+        color: #111111;
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+      }
+      .center_text{
+        padding-top: 40px;
+        font-size: 17px;
+        color: #adadad;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+      }
+    }
+    .slaider_block{
+      margin-top: 45px;
+      .image{
+        width: 169px;
+        height: 207px;
+        color: #bdbdbd;
+        margin: 0 auto;
+        text-align: center;
+        
+        .img_1{
+          background: url(../image/Ring.png);
+          width: 163px;
+          height: 130px;
+          margin: 0 auto;
+        }
+        .img_2{
+          background: url(../image/1.png);
+          width: 126px;
+          height: 113px;
+          background-size: 100%;
+          margin: 0 auto;
+        }
+        .img_3{
+          background: url(../image/10.png);
+          width: 98px;
+          height: 118px;
+          margin: 0 auto;
+        }
+        .text{
+          padding-top: 15px;
+          font-style: 17px;
+          font-family: 'Playfair Display', serif;
+        }
+      }
+    }
+  }
+}

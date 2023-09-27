@@ -1,0 +1,88 @@
+@media screen and (max-width: 480px) {
+    .footer{
+        .container{
+            width: 100%;
+            height: auto;
+            padding: 0 15px;
+            .footer_top{
+                color: #5d5d5d;
+                .footer_top_text{
+                    padding-top: 20px;
+                    text-align: center;
+                    p{
+                        padding: 10px 0;
+                        text-align: left;
+                        font-family: 'Poppins', sans-serif;
+                    }
+                    .top__text{
+                        font-size: 22px;
+                        padding-bottom: 10px;
+                    }
+                    .top_text{
+                        padding-top: 55px;
+                    }
+                    .Facebook{
+                        padding-top: 55px;
+                    }
+                    .Facebook::before{
+                        font-family: "Font Awesome 5 Brands";
+                        content: "\f082";
+                        font-weight: 900;
+                        color: #b3b3b3;
+                    }
+                    .Twitter::before{
+                        font-family: "Font Awesome 5 Brands";
+                        content: "\f082";
+                        font-weight: 900;
+                        color:  #b3b3b3;
+                    }
+                    .Instagram::before{
+                        font-family: "Font Awesome 5 Brands";
+                        content: "\f16d";
+                        font-weight: 900;
+                        color: #b3b3b3;
+                    }
+                    .You_tube::before{
+                        font-family: "Font Awesome 5 Brands";
+                        content: "\f167";
+                        font-weight: 900;
+                        color:  #b3b3b3;
+                    }
+                    .Vimeo::before{
+                        font-family: "Font Awesome 5 Brands";
+                        content: "\f40a";
+                        font-weight: 900;
+                        color:  #b3b3b3;
+                    }
+                }
+            }
+            .footer_text{
+                display: flex;
+                justify-content: space-around;
+            }
+            .footer_bottom{
+                padding-top: 10px;
+                .footer_bottom_img{
+                    border-top: 1px solid #b3b3b3;
+                    padding: 5px 0;
+                    display: flex;
+                    justify-content: space-between;
+                    .fab{
+                        font-size: 42px;
+                        color: #b3b3b3;
+                    }
+                    .fab:hover{
+                        color: blue;
+                    }
+                }
+                .footer_bottom_text{
+                    text-align: center;
+                    padding: 10px;
+                    color: #5d5d5d;
+                    cursor: pointer;
+                    font-family: 'Poppins', sans-serif;
+                }
+            }
+        }
+    }
+}

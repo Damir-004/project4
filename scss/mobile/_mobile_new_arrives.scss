@@ -1,0 +1,33 @@
+@media screen and (max-width: 480px) {
+    .new_arrivels{
+        max-height: 310px;
+        overflow: hidden;
+        font-family: 'Playfair Display', serif;
+        .new_arrivels_text{
+            font-size: 30px;
+            color: black;
+            text-align: center;
+            padding-top: 20px;
+        }
+    }
+    .block{
+        width: 100%;
+        padding-top: 15px;
+        outline: none;
+        .block_img{
+            img{
+                border-style: none;
+                margin: 0 auto;
+            }
+        }
+        .block_text{
+            color:black;
+            font-size: 25px;
+            text-align: center;
+            padding-top: 15px;
+        }
+    }
+    img{
+        background-repeat:no-repeat;
+    }
+}
